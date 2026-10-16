@@ -11,6 +11,7 @@ const PHASES = [
   { id: 2, title: "Phase 2: LTI ও কনভলিউশন", path: "/phase2" },
   { id: 3, title: "Phase 3: ব্লক ডায়াগ্রাম ও স্টেট", path: "/phase3" },
   { id: 4, title: "Phase 4: ফুরিয়ার সিরিজ", path: "/phase4" },
+  { id: 5, title: "Phase 5: ফুরিয়ার ট্রান্সফর্ম", path: "/phase5" },
 ];
 
 export default function PhaseFooter({ currentPhase }: PhaseFooterProps) {
@@ -29,7 +30,7 @@ export default function PhaseFooter({ currentPhase }: PhaseFooterProps) {
               কোর্স অগ্রগতি (Progress): {progressPercent}% সম্পন্ন
             </span>
             <span className="bg-slate-100 text-slate-700 px-2.5 py-0.5 rounded-full font-mono text-xs">
-              Phase {currentPhase} / 4
+              Phase {currentPhase} / 5
             </span>
           </div>
           <div className="w-full bg-slate-100 rounded-full h-2.5 overflow-hidden">
