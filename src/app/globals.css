@@ -76,6 +76,55 @@ canvas {
   box-shadow: 0 4px 10px -1px rgba(124, 58, 237, 0.35) !important;
 }
 
+.phase-5-page .tab-active {
+  background-color: #4f46e5 !important;
+  color: #ffffff !important;
+  box-shadow: 0 4px 10px -1px rgba(79, 70, 229, 0.35) !important;
+}
+
+.phase-6-page .nav-active {
+  background-color: #4f46e5 !important;
+  color: #ffffff !important;
+  border-color: #4338ca !important;
+  box-shadow: 0 4px 12px rgba(79, 70, 229, 0.3) !important;
+}
+
+.phase-6-page .filter-active {
+  background-color: #0f766e !important;
+  color: #ffffff !important;
+}
+
+.phase-6-page .step-active {
+  background-color: #4f46e5 !important;
+  color: #ffffff !important;
+}
+
+.math {
+  font-family: 'Cambria Math', 'Times New Roman', Georgia, serif;
+  font-weight: 700;
+  font-style: italic;
+  background-color: rgba(79, 70, 229, 0.08);
+  padding: 0.1rem 0.4rem;
+  border-radius: 0.35rem;
+  color: #312e81;
+  display: inline-block;
+}
+
+.math-block {
+  font-family: 'Cambria Math', 'Times New Roman', Georgia, serif;
+  font-size: 1.05rem;
+  font-weight: 700;
+  background-color: #f1f5f9;
+  border-left: 4px solid #4f46e5;
+  padding: 0.85rem 1.15rem;
+  border-radius: 0.5rem;
+  color: #0f172a;
+  overflow-x: auto;
+  margin-top: 0.6rem;
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
+}
+
 /* Subtab styles */
 .subtab-active {
   background-color: #0f172a !important;

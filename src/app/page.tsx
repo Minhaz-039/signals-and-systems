@@ -147,6 +147,28 @@ const PHASES = [
       "নোটের ভুল সংশোধন ও ৫টি ইন্টারঅ্যাক্টিভ কুইজ",
     ],
   },
+  {
+    id: 6,
+    number: "Phase 6",
+    title: "ভার্সিটি ফাইনাল এক্সাম Q&A ও স্পেশাল প্রবলেমস",
+    englishTitle: "Ultimate Varsity Exam Q&A Guide",
+    description:
+      "EEE 303 সিগন্যাল ও সিস্টেমের ৩০টি পূর্ণাঙ্গ ফাইনাল পরীক্ষার প্রশ্নোত্তর, ৬টি লাইভ ইন্টারঅ্যাক্টিভ ভিজ্যুয়াল ল্যাব, Spring '25 রেডিও মডুলেশন চেইন এবং সম্পূর্ণ ফর্মুলা চিটশিট।",
+    badge: "এক্সাম প্রিপারেশন",
+    color: "from-indigo-900 via-blue-900 to-slate-900",
+    accentBg: "bg-indigo-50 text-indigo-800 border-indigo-200",
+    buttonBg: "bg-indigo-600 hover:bg-indigo-700",
+    icon: Award,
+    href: "/phase6",
+    topics: [
+      "৩০টি বিশ্ববিদ্যালয়ের ফাইনাল পরীক্ষার প্রশ্নোত্তর (Phases 0–5)",
+      "⭐ হাই-প্রায়োরিটি এক্সাম কোয়েশ্চেন ফিল্টারিং ও লাইভ সার্চ",
+      "৬টি লাইভ ভিজ্যুয়াল ল্যাব (Pulse, Sifting, Exponential, Modulation)",
+      "Spring '25 ফাইনাল: রেডিও মডুলেশন ও ডিমডুলেশন চেইন সিমুলেটর",
+      "Sa(2t)·cos(100t) ফিল্টারিং প্রবলেম ও টাইম-শিফটিং বিভ্রান্তি দূরীকরণ",
+      "নোটের pp. 73–92 এর ৯টি ভুল সংশোধন ও কমপ্লিট চিটশিট",
+    ],
+  },
 ];
 
 export default function Home() {
@@ -169,7 +191,7 @@ export default function Home() {
           </h1>
 
           <p className="text-slate-300 text-base sm:text-lg md:text-xl max-w-3xl mx-auto font-normal leading-relaxed">
-            Phase 0 থেকে Phase 5 পর্যন্ত সহজ বাংলা উপমা, লাইভ ইন্টারঅ্যাক্টিভ ক্যানভাস অ্যানিমেশন, স্লাইডিং কনভলিউশন, এবং ক্লাস নোটের কঠিন অংকগুলোর স্টেপ-বাই-স্টেপ নির্ভুল সমাধান।
+            Phase 0 থেকে Phase 6 পর্যন্ত সহজ বাংলা উপমা, লাইভ ইন্টারঅ্যাক্টিভ ক্যানভাস অ্যানিমেশন, স্লাইডিং কনভলিউশন, এবং ভার্সিটি ফাইনাল এক্সামের ৩০টি নির্ভুল মডেল সমাধান।
           </p>
 
           <div className="flex flex-wrap items-center justify-center gap-3 pt-3">
@@ -191,19 +213,19 @@ export default function Home() {
           {/* Quick Metrics */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-4 max-w-4xl mx-auto pt-8">
             <div className="bg-slate-800/60 backdrop-blur border border-slate-700/60 rounded-xl p-4 text-center">
-              <div className="text-2xl md:text-3xl font-extrabold text-sky-400 font-mono">৬টি</div>
-              <div className="text-xs text-slate-400 mt-1 font-medium">সম্পূর্ণ ফেজ (0–5)</div>
+              <div className="text-2xl md:text-3xl font-extrabold text-sky-400 font-mono">৭টি</div>
+              <div className="text-xs text-slate-400 mt-1 font-medium">সম্পূর্ণ ফেজ (0–6)</div>
             </div>
             <div className="bg-slate-800/60 backdrop-blur border border-slate-700/60 rounded-xl p-4 text-center">
-              <div className="text-2xl md:text-3xl font-extrabold text-indigo-400 font-mono">৩০+</div>
-              <div className="text-xs text-slate-400 mt-1 font-medium">লাইভ ক্যানভাস সিমুলেটর</div>
+              <div className="text-2xl md:text-3xl font-extrabold text-indigo-400 font-mono">৬০+</div>
+              <div className="text-xs text-slate-400 mt-1 font-medium">লাইভ ক্যানভাস ও Q&A</div>
             </div>
             <div className="bg-slate-800/60 backdrop-blur border border-slate-700/60 rounded-xl p-4 text-center">
               <div className="text-2xl md:text-3xl font-extrabold text-teal-400 font-mono">১০০%</div>
-              <div className="text-xs text-slate-400 mt-1 font-medium">সিলেবাস ও নোট অক্ষত</div>
+              <div className="text-xs text-slate-400 mt-1 font-medium">সিলেবাস ও নোট কভারড</div>
             </div>
             <div className="bg-slate-800/60 backdrop-blur border border-slate-700/60 rounded-xl p-4 text-center">
-              <div className="text-2xl md:text-3xl font-extrabold text-purple-400 font-mono">১০+</div>
+              <div className="text-2xl md:text-3xl font-extrabold text-purple-400 font-mono">১৯+</div>
               <div className="text-xs text-slate-400 mt-1 font-medium">নোটের ভুল সংশোধন</div>
             </div>
           </div>
@@ -217,7 +239,7 @@ export default function Home() {
             Curriculum Breakdown
           </span>
           <h2 className="text-2xl sm:text-3xl font-bold text-slate-900">
-            সম্পূর্ণ কোর্সের রোডম্যাপ ও ৬টি ফেজ
+            সম্পূর্ণ কোর্সের রোডম্যাপ ও ৭টি ফেজ
           </h2>
           <p className="text-slate-600 text-sm sm:text-base max-w-2xl mx-auto">
             প্রতিটি ফেজে রয়েছে বাস্তব জীবনের উপমা, ইন্টারঅ্যাক্টিভ অ্যানিমেটেড গ্রাফ, থিওরি ও কুইজ।

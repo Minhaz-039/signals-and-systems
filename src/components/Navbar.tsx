@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
-import { Menu, X, Activity, BookOpen, Layers, GitBranch, Cpu, Radio, Waves } from "lucide-react";
+import { Menu, X, Activity, BookOpen, Layers, GitBranch, Cpu, Radio, Waves, Award } from "lucide-react";
 
 const NAV_ITEMS = [
   { href: "/", label: "হোম", icon: Activity, tag: "Hub" },
@@ -13,6 +13,7 @@ const NAV_ITEMS = [
   { href: "/phase3", label: "Phase 3: ব্লক ডায়াগ্রাম", icon: Cpu, color: "text-teal-400", tag: "Diagrams" },
   { href: "/phase4", label: "Phase 4: ফুরিয়ার সিরিজ", icon: Radio, color: "text-purple-400", tag: "Fourier" },
   { href: "/phase5", label: "Phase 5: ফুরিয়ার ট্রান্সফর্ম", icon: Waves, color: "text-indigo-400", tag: "FT" },
+  { href: "/phase6", label: "Phase 6: এক্সাম Q&A", icon: Award, color: "text-amber-400", tag: "Exam Guide" },
 ];
 
 export default function Navbar() {
@@ -34,7 +35,7 @@ export default function Navbar() {
                   সিগন্যাল ও সিস্টেম
                 </span>
                 <span className="text-[10px] uppercase font-bold tracking-wider px-1.5 py-0.5 rounded bg-sky-500/20 border border-sky-400/30 text-sky-300">
-                  Phases 0–5
+                  Phases 0–6
                 </span>
               </div>
               <p className="text-[11px] text-slate-400 hidden sm:block font-normal">
